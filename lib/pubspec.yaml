@@ -1,0 +1,23 @@
+name: buski_site  # Projenizin adı
+description: A Flutter project for displaying Buski data.  # Proje açıklaması
+
+# Bu satır, paketin pub.dev'e yanlışlıkla yayımlanmasını engeller.
+publish_to: 'none' # Yayımlamak istemiyorsanız bu satır doğru
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"  # SDK sürümünüzü belirtiyor
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  http: ^0.13.3  # Yeni sürüm
+  flutter_lints: ^6.0.0
+  lints: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true  # Material tasarım kullanacağınızı belirtiyor
